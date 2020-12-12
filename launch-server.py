@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request, Response
 import json
 import re
 import MeCab
-import argparse
 
 app = Flask(__name__)
 mecab = MeCab.Tagger("-r /etc/mecabrc")
