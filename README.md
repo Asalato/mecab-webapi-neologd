@@ -1,5 +1,6 @@
 # mecab-webapi-neologd
 Docker Container image for mecab's web server
+This repository is uploading automatically to the [DockerHub](https://hub.docker.com/repository/docker/asalato/mecab-webapi-neologd)
 
 # Usage
 `docker run -p 80:80 asalato/mecab-webapi-neologd:latest`
