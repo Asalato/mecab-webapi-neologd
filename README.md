@@ -28,7 +28,7 @@ This repository is uploading automatically to the [DockerHub](https://hub.docker
 # Example request
 ```
 # Send "今日は雨だ"
-$ curl 'http://127.0.0.1/mecab?sentence=%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8%E3%81%A0'
+$ curl http://127.0.0.1/mecab?sentence=%E4%BB%8A%E6%97%A5%E3%81%AF%E9%9B%A8%E3%81%A0
 ->
 [
   {
